@@ -1,4 +1,4 @@
-# Converter by Lee (Video, Photo & URL Downloader)
+# Converter (Video, Photo & URL Downloader)
 
 A modern, GPU-accelerated desktop application for converting media, reducing file sizes, and downloading content from the web. Built with Python and PySide6, powered by `ffmpeg` and `yt-dlp`.
 
@@ -66,4 +66,5 @@ The app scans `ffmpeg -encoders` to find hardware-accelerated codecs:
 - **Linux/Generic**: `vaapi`
 
 If no GPU is found, it gracefully falls back to standard CPU encoding (`libx264`).
+
 
